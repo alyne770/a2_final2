@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Projeto A2',
         theme: ThemeData(
           primarySwatch: Colors.blue,
